@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/heart_animation"
+        android:layout_width="43dp"
+        android:layout_height="28dp"
+        android:src="@drawable/navarroww"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="206dp"
+        android:layout_height="49dp"
+        android:text="Welcome back"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <!-- Login Button -->
+
+    <!-- OR Login With -->
+
+    <!-- Social Media Login Buttons -->
+
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="362dp"
+        android:layout_height="48dp"
+        android:background="@drawable/roundedcorners"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="362dp"
+        android:layout_height="48dp"
+        android:background="@drawable/roundedcorners"
+        android:drawableEnd="@drawable/ic_eye"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#808080"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="362dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#12C6CB"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <TextView
+        android:id="@+id/or_login_with"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or Login with"
+        android:textColor="#808080"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+
+    <!-- Register Link -->
+
+    <ImageView
+        android:id="@+id/facebook_login"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="@drawable/roundedcorners"
+        android:contentDescription="Facebook Login"
+        android:src="@drawable/facebook457"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <ImageView
+        android:id="@+id/google_login"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="@drawable/roundedcorners"
+        android:contentDescription="Google Login"
+        android:src="@drawable/google567"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <ImageView
+        android:id="@+id/apple_login"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="@drawable/roundedcorners"
+        android:contentDescription="x"
+        android:src="@drawable/google567"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <TextView
+        android:id="@+id/register_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don’t have an account? Register Now"
+        android:textColor="#12C6CB"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

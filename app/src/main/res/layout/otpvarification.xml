@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Back Button -->
+
+    <!-- OTP Title -->
+
+    <!-- OTP Input Fields -->
+
+    <TextView
+        android:id="@+id/tv_otp_title"
+        android:layout_width="435dp"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:text="OTP Verification"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-27dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="41dp"
+        android:layout_height="33dp"
+        android:contentDescription="Back"
+        android:src="@drawable/arrowwwwwww"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/tv_otp_description"
+        android:layout_width="359dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="Enter the verification code we just sent on your email address."
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <!-- Verify Button -->
+
+    <!-- Resend Code -->
+
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#12C6CB"
+        android:text="Verify"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <TextView
+        android:id="@+id/tv_otp_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Didn't received the code? Resend"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+
+    <EditText
+        android:id="@+id/otp_digit_3"
+        android:layout_width="64dp"
+        android:layout_height="69dp"
+        android:backgroundColor="#EFEFEF"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="6"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <EditText
+        android:id="@+id/otp_digit_3"
+        android:layout_width="64dp"
+        android:layout_height="69dp"
+        android:backgroundColor="#EFEFEF"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="6"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <EditText
+        android:id="@+id/otp_digit_2"
+        android:layout_width="64dp"
+        android:layout_height="69dp"
+        android:backgroundColor="#EFEFEF"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <EditText
+        android:id="@+id/otp_digit_1"
+        android:layout_width="64dp"
+        android:layout_height="69dp"
+        android:backgroundColor="#EFEFEF"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="5"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="351dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
