@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:padding="16dp">
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="40dp">
 
 
     <ImageView
@@ -19,26 +20,18 @@
         android:layout_width="317dp"
         android:layout_height="59dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="530dp"
         android:layout_marginEnd="30dp"
         android:backgroundTint="#12C6CB"
-        android:text="Login"
+        android:text="Let's start"
+        android:fontFamily="@font/work_sans"
+        android:elevation="10dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:shadowDy="@android:integer/config_longAnimTime"
+        android:layout_below="@+id/logo_with_text"
         android:textColor="@android:color/white"
         android:textSize="16sp"/>
 
-    <Button
-        android:id="@+id/register_button"
-        android:layout_width="317dp"
-        android:layout_height="58dp"
-        android:layout_below="@id/login_button"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="32dp"
-        android:backgroundTint="@android:color/white"
-        android:elevation="2dp"
-        android:text="Register"
-        android:textColor="@android:color/black"
-        android:textSize="16sp" />
 
 
 </RelativeLayout>
