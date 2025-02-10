@@ -10,13 +10,13 @@
     <!-- Top Bar with Back Button -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/relativeLayout"
-        android:layout_width="450dp"
-        android:layout_height="112dp"
+        android:layout_width="412dp"
+        android:layout_height="105dp"
         android:background="#12C6CB"
         android:padding="16dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-2dp"
-        tools:ignore="MissingConstraints">
+        tools:layout_editor_absoluteY="-2dp">
 
         <ImageView
             android:id="@+id/back_button"
@@ -27,22 +27,16 @@
             tools:layout_editor_absoluteY="15dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!-- Doctor's Image -->
-
-    <!-- Phone Number -->
-
-    <!-- Call Button -->
-
-
     <ImageView
         android:id="@+id/doctor_image"
         android:layout_width="397dp"
         android:layout_height="377dp"
-        android:background="@drawable/rounded_corner_background"
+        android:contentDescription="@string/first_fragment_label"
         android:scaleType="fitCenter"
         android:src="@drawable/frameeeee"
         tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="149dp" />
+        tools:layout_editor_absoluteY="149dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/phone_number"
@@ -50,20 +44,22 @@
         android:layout_height="75dp"
         android:gravity="center"
         android:padding="10dp"
-        android:text="+91 6260379325"
+        android:text="@string/_91_6260379325"
         android:textColor="@color/black"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="578dp" />
+        tools:layout_editor_absoluteY="578dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/send_code_button"
         android:layout_width="174dp"
         android:layout_height="62dp"
         android:backgroundTint="#12C6CB"
-        android:text=" Get a call"
+        android:text="@string/get_a_call"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="668dp" />
+        tools:layout_editor_absoluteY="668dp"
+        tools:ignore="MissingConstraints,UnusedAttribute" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
